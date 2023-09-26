@@ -1,35 +1,35 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 @import "bootstrap";
 
-main{
-    padding-top: 3rem;
-    background-color: aquamarine;
-    background-size: cover;
+main {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: rgb(218, 219, 211);
+    background: linear-gradient(180deg, rgba(218, 219, 211, 1) 0%, rgba(14, 147, 159, 1) 50%);
+}
 
-    .card{
-        background-color: lightcyan;
-        text-align: left;
-        height: 100%;
+.card {
+    background-color: lightcyan;
+    text-align: left;
+    height: 100%;
 
-        h5{
-            font-size: 2.2rem;
-        };
+}
 
-        h6{
-            font-size: 1.2rem;
-            padding-bottom: 1rem;
-        }
-
-        .card-body{
-            display: flex;
-            flex-direction: column;
-
-            .vote{
-                margin-top: auto;
-            }
-        }
+h3 {
+    font-size: 2rem;
+}
 
 
+h4 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
 
-    }
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.vote {
+    margin-top: auto;
 }
