@@ -1,2 +1,35 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 @import "bootstrap";
+
+main{
+    padding-top: 3rem;
+    background-color: aquamarine;
+    background-size: cover;
+
+    .card{
+        background-color: lightcyan;
+        text-align: left;
+        height: 100%;
+
+        h5{
+            font-size: 2.2rem;
+        };
+
+        h6{
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+
+        .card-body{
+            display: flex;
+            flex-direction: column;
+
+            .vote{
+                margin-top: auto;
+            }
+        }
+
+
+
+    }
+}
