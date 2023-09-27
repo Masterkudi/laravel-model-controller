@@ -2,6 +2,7 @@
 @import "bootstrap";
 
 main {
+    min-height: 100vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background: rgb(218, 219, 211);
@@ -21,15 +22,11 @@ h3 {
 
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-bottom: 1rem;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
-}
-
-.vote {
-    margin-top: auto;
 }

@@ -13,7 +13,7 @@
                         <h4 class="card-subtitle mb-2 text-body-secondary">{{$movie->original_title}}</h4>
                         <p class="card-text">nationality: {{$movie->nationality}}</p>
                         <p class="card-text">date: {{$movie->date}}</p>
-                        <p class="card-text vote"> vote: <strong> {{$movie->vote}}</strong></p>
+                        <p class="card-text"> vote: <strong> {{$movie->vote}}</strong></p>
                     </div>
                 </div>
             </div>
